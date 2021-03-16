@@ -1,0 +1,25 @@
+vnote_backup_file_826537664 E:/vnote_notebooks/Delphi/基础语法.md
+# 基础语法
+## 变量
+```
+#声明方式：
+var 变量名：数据类型
+var Age: Integer;
+#初始化
+变量名 := 变量的值；
+Age := 0;
+#声明并且初始化一个变量
+var 变量名 : 数据类型 = 变量的值
+    var Name : string = '小白';
+```
+
+## 运算符
+/        有小数除法
+div     只保留整数除法
+mod   取模
+not     布尔运算符  否定 （!）
+and    布尔运算符  与       (&&)
+or       布尔运算符  或    （||）      
+xor     布尔运算符   异或    相同为true，不同为false
+`(1 < 2) xor (2 < 3)`为true
+`(1 < 2) xor (2 > 3)`为false
